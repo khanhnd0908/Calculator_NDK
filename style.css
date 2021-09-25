@@ -1,0 +1,69 @@
+html{
+    background-image: url("img/Savin-NY-Website-Background-Web.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    background-color: lightyellow;
+    box-shadow: gainsboro;
+}
+
+.display-box{
+    font-family: Arial;
+    width: 92%;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 8px;
+    border:2px solid;
+    color: darkcyan;
+    text-align: right;
+    vertical-align: bottom;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-family: sans-serif;
+    width: 100px;
+    height: 40px;
+    font-size: larger;
+    padding: 5px;
+    margin: auto;
+}
+
+.func-button{
+    background-color: bisque;
+    border-color: bisque;
+    border-radius: 8px;
+}
+
+.num-button{
+    background-color: lavender;
+    border-color: lavender;
+    border-radius: 8px;
+}
+
+.func-button:hover{
+    opacity: 60%;
+}
+
+.num-button:hover{
+    opacity: 60%;
+}
